@@ -7,7 +7,7 @@ terraform {
   }
   backend "azurerm" {
     resource_group_name = "production"
-    storage_account_name = "productionstg"
+    storage_account_name = "productionstg1"
     container_name = "productioncont"
     key = "production.tfstate"
   }
